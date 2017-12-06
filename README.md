@@ -16,11 +16,11 @@
 
 ## 查阅
 
-查看已下载图片数:`ls ~/Pictures/.DouTu | wc -w`
+查看已下载图片数:`ls ~/Downloads/.DouTu | wc -w`
 
 ## 配置
 
-图片默认保存在`~/Pictures/.DouTu/`下面,不要了可以直接删掉`rm -rf ~/Pictures/.DouTu`
+图片默认保存在`~/Downloads/.DouTu/`下面,不要了可以直接删掉`rm -rf ~/Downloads/.DouTu`
 
 想修改图片保存路径可以修改`src/Base.php`文件中的第`33`行
 
